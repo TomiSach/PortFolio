@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="inicio">
+    <h1>Bienvenido a mi Portfolio</h1>
+    <p>¡Hola! Soy Tomas Agustin Sacchini y aquí puedes encontrar algunos de mis proyectos.</p>
+    <img src="Repo-FrontEnd\fe\assets\Foto-cv.jpg" style="width: 30%;; height: 350px;"></img>
+  </section>
+  <section id="sobre-mi">
+    <h2>Sobre mí</h2> 
+
+    <p>Hola, mi nombre es Tomas Sacchini soy estudiante de la carrera de ingenieria en sistemas en la universidad tecnologica nacional (UTN).</p>
+    <p>Radico en la ciudad de Rosario, Santa Fe, Argentina.</p>
+    <p>Tengo disponibilidad part-time y disposicion remota o presencial asi como hibrida.</p>
+    <p> Actualmente estoy buscando insertarme en el mundo laboral de los sistemas y el desarrollo de software ya que es el rubro al que me voy a dedicar en mi vida tanto laboral como profesional, lo principal no es la ganancia monetaria sino la experiencia que uno puede ganar trabajando y colaborando en distintos proyectos</p>
+
+  </section>
+  <section>
+  <h2>Skills de programacion</h2> 
+  <br>
+  <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+    
+    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"></div>HTML
+  </div>
+  <br>
+  <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 60%"></div>JAVASCRIPT
+  </div>
+  <br>
+  <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 45%"></div>CSS
+  </div>
+  <br>
+  <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 90%"></div>JAVA
+  </div>
+  <br>
+  <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 70%"></div>SQL
+  </div>
+
+
+  
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <div class="proyecto">
+      <h3>MotorSports</h3>
+      <div class="images-container">
+        <img class="MS" src="Cars_Catalogue.png" alt="This photo shows a Catalogue of cars that are been promoted to be sold.">
+        <img class="MS" src="Bike_Catalogue.png" alt="This photo shows a Catalogue of motorbikes that are been promoted to be sold.">
+        <img class="MS" src="POST_form.png" alt="This photo shows a form where users can promote their vehicles.">
+      </div>
+      <p>Este proyecto fue llevado acabo con un colega con intenciones de implementar todo lo aprendido en el trancurso del curso <strong>Argentina Programa 4.0</strong></p>
+      <a href="Repo-FrontEnd\fe\index.html">Este enlace te llevará al proyecto </a>
+      <br>
+      <br>
+     <p>Para ver mas de mis proyectos y colaboraciones en proyectos, no dudes en visitar  <a href="https://github.com/TomiSach">mi perfil de github!.</a></p>
+
+    </div>
+  </section>
+  <section id="contacto">
+    <!--Section: Contact v.2-->
+<section class="mb-4">
+
+  <!--Section heading-->
+  <h2 class="h1-responsive font-weight-bold text-center my-4">Contactame!</h2>
+  <!--Section description-->
+  <p class="text-center w-responsive mx-auto mb-5">Si estas interesado en contactarme ya sea para  el desarrollo de un software en especifico o fomrar parte de tu proyecto no dudes en escribirme.</p>
+
+  <div class="row">
+
+      <!--Grid column-->
+      <div class="col-md-9 mb-md-0 mb-5">
+          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" id="name" name="name" class="form-control">
+                          <label for="name" class="">Tu nombre</label>
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" id="email" name="email" class="form-control">
+                          <label for="email" class="">Tu email</label>
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="md-form mb-0">
+                          <input type="text" id="subject" name="subject" class="form-control">
+                          <label for="subject" class="">Asunto</label>
+                      </div>
+                  </div>
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-12">
+
+                      <div class="md-form">
+                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                          <label for="message">Mensaje</label>
+                      </div>
+
+                  </div>
+              </div>
+              <!--Grid row-->
+
+          </form>
+
+          <div class="text-center text-md-left">
+              <a class="btn btn-primary"">Send</a>
+          </div>
+          <div class="status"></div>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-md-3 text-center">
+          <ul class="list-unstyled mb-0">
+              <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                  <p>Santa Fe, Argentina</p>
+              </li>
+
+              <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                  <p>+ 54 9 11 456702</p>
+              </li>
+
+              <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                  <p>cantanto@gmail.com</p>
+              </li>
+              <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                <a href="https://www.linkedin.com/in/tomas-agustin-sacchini-b172031a1/">Perfil linkedin</a>
+            </li>
+          </ul>
+      </div>
+      <!--Grid column-->
+
+  </div>
+
+</section>
+<!--Section: Contact v.2-->
+</section>
+
+<!--Section: Contact v.2-->
+  </section>
+  <footer>
+    <p>Derechos de autor © 2023 - Tomas Sacchini</p>
+    <script src="https://cdn.jsdelivr.net/npm/progressbar.js@1.1.0/dist/progressbar.min.js"></script>
+  </footer>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+</html>
